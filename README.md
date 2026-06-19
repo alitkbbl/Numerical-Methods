@@ -35,10 +35,10 @@ numerical-methods/
 │   ├── figures/                       # Generated plots and charts
 │   └── results/                       # Computed numerical results
 │
-└── report/
-    ├── project_report.pdf             # Persian report
-    └── English_report.pdf             # English report
-
+├── report/
+│   ├── project_report.pdf             # Persian report
+│   └── English_report.pdf             # English report
+└──
 ```
 ---
 
