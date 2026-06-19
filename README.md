@@ -15,6 +15,7 @@ For a comprehensive overview of the project, please refer to the full reports:
 * [English Report](report/English_report.pdf)
 * [Persian Report](report/project_report.pdf)
 
+---
 
 ## 📂 Directory Structure
 
