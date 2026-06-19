@@ -1,0 +1,137 @@
+\documentclass[12pt,a4paper]{article}
+
+% -------------------- Page Layout --------------------
+\usepackage[
+top=2.5cm,
+bottom=2.5cm,
+left=2.5cm,
+right=2.5cm
+]{geometry}
+
+% -------------------- Math Packages --------------------
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% -------------------- Figures --------------------
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+
+% -------------------- Formatting --------------------
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% -------------------- Persian Support --------------------
+% xepersian should be loaded last
+\usepackage{xepersian}
+
+% -------------------- Fonts --------------------
+\settextfont{Yas}
+\setdigitfont{Yas}
+
+% -------------------- General Settings --------------------
+\onehalfspacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	urlcolor=blue,
+	citecolor=blue
+}
+
+\captionsetup{
+	font=small,
+	labelfont=bf,
+	justification=centering
+}
+
+\titleformat{\section}
+{\Large\bfseries}
+{}
+{0pt}
+{}
+
+\titleformat{\subsection}
+{\large\bfseries}
+{}
+{0pt}
+{}
+
+\setlist[itemize]{
+	topsep=0.5em,
+	itemsep=0.4em,
+	rightmargin=1.5em
+}
+
+% -------------------- Document --------------------
+\begin{document}
+	
+	\begin{center}
+		{\Large\bfseries بخش اول: درونیابی لاگرانژ و اسپلاین}
+	\end{center}
+	
+	\vspace{0.5em}
+	
+	در این بخش، هدف یافتن تابعی است که دقیقاً از مجموعه نقاط داده شده شامل
+	$(1,1), (2,3), (3,5), (4,8), (5,5), (6,2)$
+	عبور کند. برای این منظور از دو روش درونیابی لاگرانژ و اسپلاین مکعبی
+	(\lr{Cubic Spline})
+	استفاده شد. همان‌طور که در نتایج خروجی کد پایتون مشخص است، هر دو روش با موفقیت پیاده‌سازی شده و خطای ارزیابی آن‌ها در گره‌های داده شده برابر صفر است.
+	
+	\section*{۱. ضابطه توابع به دست آمده}
+	
+	\textbf{الف) درونیابی لاگرانژ:}
+	
+	از آنجا که ۶ نقطه داده شده است، چندجمله‌ای درونیاب لاگرانژ یک چندجمله‌ای واحد از درجه ۵ خواهد بود. ضابطه دقیق این تابع پس از محاسبه و ساده‌سازی به فرم زیر به دست آمد:
+	
+	\begin{equation}
+		P(x) =
+		0.175x^5
+		- 2.958x^4
+		+ 18.375x^3
+		- 52.041x^2
+		+ 68.45x
+		- 31.0
+	\end{equation}
+	
+	\textbf{ب) درونیابی اسپلاین مکعبی:}
+	
+	برخلاف روش لاگرانژ، اسپلاین مکعبی از چندجمله‌ای‌های تکه‌ای از درجه ۳ تشکیل شده است که در مرز بازه‌ها، یعنی گره‌ها، دارای مشتقات اول و دوم پیوسته هستند. ضابطه دقیق این توابع برای هر بازه محاسبه شد؛ به عنوان نمونه، ضابطه این تابع در بازه اول $[1, 2]$ به صورت زیر است:
+	
+	\begin{equation}
+		S_0(x) =
+		-0.186x^3
+		+ 0.559x^2
+		+ 1.626x
+		- 1.0
+	\end{equation}
+	
+	(توابع مربوط به سایر بازه‌ها نیز به طور کامل در خروجی کد درج شده‌اند).
+	
+	\section*{۲. تحلیل نمودار و مقایسه دو روش}
+	
+	با توجه به نمودار رسم شده، شکل \ref{fig:q1_interpolation}، تفاوت‌های بنیادین رفتار این دو روش به وضوح قابل مشاهده است:
+	
+	\begin{itemize}
+		\item \textbf{رفتار نوسانی لاگرانژ:}
+		چندجمله‌ای لاگرانژ، یعنی منحنی پیوسته آبی، به دلیل داشتن درجه بالا، درجه ۵، تمایل به نوسانات شدیدتری بین نقاط دارد. این موضوع به خصوص در بازه انتهایی بین $x=5$ و $x=6$ مشهود است، جایی که منحنی دچار یک افت شدید به سمت پایین شده است. این رفتار نوسانی در لبه‌ها، نمودی از پدیده رونگه
+		(\lr{Runge's Phenomenon})
+		در درونیابی چندجمله‌ای است.
+		
+		\item \textbf{پایداری اسپلاین:}
+		در مقابل، اسپلاین مکعبی، یعنی خط‌چین قرمز، به دلیل ماهیت تکه‌ای و محدود بودن درجه توابع به عدد ۳، رفتار بسیار نرم‌تر، طبیعی‌تر و پایدارتری از خود نشان می‌دهد. این روش بدون ایجاد نوسانات کاذب بین نقاط، مسیر هموارتری را برای اتصال گره‌ها طی کرده است و برای برازش این نوع داده‌ها انتخاب بهتری محسوب می‌شود.
+	\end{itemize}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.92\textwidth]{/Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/question1_interpolation.png}
+		\caption{مقایسه رفتار توابع درونیابی لاگرانژ و اسپلاین مکعبی بر روی نقاط داده شده}
+		\label{fig:q1_interpolation}
+	\end{figure}
+	
+\end{document}

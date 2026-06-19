@@ -1,0 +1,4 @@
+\contentsline {section}{بخش اول: درونیابی لاگرانژ و اسپلاین}{2}{}%
+\contentsline {subsection}{۱. ضابطه توابع به دست آمده}{2}{}%
+\contentsline {subsection}{۲. تحلیل نمودار و مقایسه دو روش}{2}{}%
+\contentsline {section}{نتیجه‌گیری}{2}{}%
