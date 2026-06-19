@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.10)  19 JUN 2026 15:30
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.10)  19 JUN 2026 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -835,7 +835,28 @@ File: /Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figur
 es/question1_interpolation.png Graphic file (type bmp)
 </Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/qu
 estion1_interpolation.png>
- [2] (./project_report.aux)
+
+Overfull \hbox (2.37349pt too wide) in paragraph at lines 151--154
+[]\TU/Yas(0)/m/n/12 بر اساس نتایج استخراج‌شده، می‌توان رفتار هر یک از الگوریتم‌
+ها را از منظر پیچیدگی زمانی و مقیاس‌پذیری ([]\TU/lmroman10-regular(0)/m/n/12 Sc
+alability[]\TU/Yas(0)/m/n/12 )[]
+ []
+
+[2]
+File: /Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figur
+es/question2_line_chart.png Graphic file (type bmp)
+</Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/qu
+estion2_line_chart.png>
+File: /Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figur
+es/question2_bar_chart.png Graphic file (type bmp)
+</Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/qu
+estion2_bar_chart.png>
+ [3]
+File: /Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figur
+es/question2_box_plot.png Graphic file (type bmp)
+</Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/qu
+estion2_box_plot.png>
+ [4] [5] (./project_report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -844,12 +865,12 @@ Package rerunfilecheck Info: File `project_report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17484 strings out of 468168
- 360378 string characters out of 5432815
+ 17526 strings out of 468168
+ 363537 string characters out of 5432815
  819390 words of memory out of 5000000
- 45919 multiletter control sequences out of 15000+600000
- 633046 words of font info for 99 fonts, out of 8000000 for 9000
+ 45952 multiletter control sequences out of 15000+600000
+ 633094 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  88i,5n,93p,1191b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on project_report.pdf (2 pages).
+Output written on project_report.pdf (5 pages).
