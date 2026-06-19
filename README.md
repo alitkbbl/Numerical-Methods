@@ -72,7 +72,7 @@ convergence behavior.
 ```bash
 # Clone the repository
 git clone https://github.com/alitkbbl/Numerical-Methods.git
-cd numerical-methods
+cd Numerical-Methods
 
 # Install dependencies
 pip install -r requirements.txt
