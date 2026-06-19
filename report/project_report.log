@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.10)  19 JUN 2026 15:36
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.10)  19 JUN 2026 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -724,11 +724,11 @@ Package fontspec Info:
 (fontspec)             <->"Yas/BI/OT:script=latn;language=dflt;"
 
 Package unicode-persianmath Info: DefiningthedefaultPersianmathdigitsfontas'Yas
-' on input line 34.
+' on input line 32.
 \sympersianoperators=\mathgroup6
 \sympersianoperatorsbf=\mathgroup7
 \sympersianoperatorsit=\mathgroup8
-Package hyperref Info: Option `colorlinks' set `true' on input line 45.
+Package hyperref Info: Option `colorlinks' set `true' on input line 43.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/bidi/float-xetex-bidi.def
 File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package f
 or XeTeX engine
@@ -736,26 +736,26 @@ or XeTeX engine
 (./project_report.aux)
 \openout1 = `project_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -794,64 +794,50 @@ LaTeX Font Info:    ... okay on input line 72.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 72.
+Package hyperref Info: Link coloring ON on input line 77.
 (./project_report.out) (./project_report.out)
 \@outlinefile=\write3
 \openout3 = `project_report.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
 
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
 
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/Yas(2)/bx/n' in size <12> not available
-(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 81.
+(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `TU/Yas(2)/bx/n' in size <8> not available
-(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 81.
+(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `TU/Yas(2)/bx/n' in size <6> not available
-(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 81.
-
-Overfull \hbox (22.92822pt too wide) in paragraph at lines 80--85
-[][]\TU/Yas(0)/m/n/12 در این بخش، هدف یافتن تابعی است که دقیقاً از مجموعه نقاط 
-داده شده شامل $\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []\OT1/cmr/m/n/12 )\OML/cm
-m/m/it/12 ; \OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []\OT1/cmr/m/n/12 )\OML/cmm/m
-/it/12 ; \OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []\OT1/cmr/m/n/12 )\OML/cmm/m/it
-/12 ; \OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []\OT1/cmr/m/n/12 )\OML/cmm/m/it/12
- ; \OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; 
-\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []\OT1/cmr/m/n/12 )$[]
- []
-
-[1
+(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 89.
+ [1
 
 ]
 File: /Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figur
 es/question1_interpolation.png Graphic file (type bmp)
 </Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/qu
 estion1_interpolation.png>
-
-Overfull \hbox (2.37349pt too wide) in paragraph at lines 151--154
-[]\TU/Yas(0)/m/n/12 بر اساس نتایج استخراج‌شده، می‌توان رفتار هر یک از الگوریتم‌
-ها را از منظر پیچیدگی زمانی و مقیاس‌پذیری ([]\TU/lmroman10-regular(0)/m/n/12 Sc
-alability[]\TU/Yas(0)/m/n/12 )[]
- []
-
-[2]
+ [2]
 File: /Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figur
 es/question2_line_chart.png Graphic file (type bmp)
 </Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/qu
 estion2_line_chart.png>
+LaTeX Font Info:    Font shape `TU/Yas(2)/bx/n' in size <10.95> not available
+(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 242.
+
+
+[3]
 File: /Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figur
 es/question2_bar_chart.png Graphic file (type bmp)
 </Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/qu
 estion2_bar_chart.png>
- [3]
 File: /Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figur
 es/question2_box_plot.png Graphic file (type bmp)
 </Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/qu
@@ -865,12 +851,12 @@ Package rerunfilecheck Info: File `project_report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17526 strings out of 468168
- 363537 string characters out of 5432815
- 819390 words of memory out of 5000000
- 45952 multiletter control sequences out of 15000+600000
- 633094 words of font info for 105 fonts, out of 8000000 for 9000
+ 17547 strings out of 468168
+ 364160 string characters out of 5432815
+ 816390 words of memory out of 5000000
+ 45967 multiletter control sequences out of 15000+600000
+ 634690 words of font info for 117 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,5n,93p,1191b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,8n,93p,1191b,467s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on project_report.pdf (5 pages).
