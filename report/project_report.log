@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.10)  19 JUN 2026 16:18
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.10)  19 JUN 2026 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -728,7 +728,26 @@ Package unicode-persianmath Info: DefiningthedefaultPersianmathdigitsfontas'Yas
 \sympersianoperators=\mathgroup6
 \sympersianoperatorsbf=\mathgroup7
 \sympersianoperatorsit=\mathgroup8
-Package hyperref Info: Option `colorlinks' set `true' on input line 43.
+
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+
+LaTeX Info: Redefining \latinfont on input line 33.
+Package hyperref Info: Option `colorlinks' set `true' on input line 47.
  (/usr/local/texlive/2026/texmf-dist/tex/latex/bidi/float-xetex-bidi.def
 File: float-xetex-bidi.def 2013/04/04 v0.2 bidi adaptations for float package f
 or XeTeX engine
@@ -736,26 +755,26 @@ or XeTeX engine
 (./project_report.aux)
 \openout1 = `project_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -794,7 +813,7 @@ LaTeX Font Info:    ... okay on input line 77.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 77.
+Package hyperref Info: Link coloring ON on input line 81.
 (./project_report.out) (./project_report.out)
 \@outlinefile=\write3
 \openout3 = `project_report.out'.
@@ -802,64 +821,43 @@ Package hyperref Info: Link coloring ON on input line 77.
  [1
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 120
+LaTeX Font Info:    Trying to load font information for U+msa on input line 132
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 120
+LaTeX Font Info:    Trying to load font information for U+msb on input line 132
 .
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/Yas(2)/bx/n' in size <12> not available
-(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 120.
+(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 132.
 
 LaTeX Font Info:    Font shape `TU/Yas(2)/bx/n' in size <8> not available
-(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 120.
+(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 132.
 
 LaTeX Font Info:    Font shape `TU/Yas(2)/bx/n' in size <6> not available
-(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 120.
+(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 132.
 
  [1]
-File: /Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figur
-es/question1_interpolation.png Graphic file (type bmp)
-</Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/qu
-estion1_interpolation.png>
+File: ../outputs/figures/question1_interpolation.png Graphic file (type bmp)
+<../outputs/figures/question1_interpolation.png>
  [2]
-File: /Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figur
-es/question2_line_chart.png Graphic file (type bmp)
-</Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/qu
-estion2_line_chart.png>
-LaTeX Font Info:    Font shape `TU/Yas(2)/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/Yas(2)/b/n' tried instead on input line 275.
-
-
 [3]
-File: /Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figur
-es/question2_bar_chart.png Graphic file (type bmp)
-</Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/qu
-estion2_bar_chart.png>
+File: ../outputs/figures/question2_line_chart.png Graphic file (type bmp)
+<../outputs/figures/question2_line_chart.png>
+File: ../outputs/figures/question2_bar_chart.png Graphic file (type bmp)
+<../outputs/figures/question2_bar_chart.png>
  [4]
-File: /Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figur
-es/question2_box_plot.png Graphic file (type bmp)
-</Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/qu
-estion2_box_plot.png>
- [5]
-Overfull \hbox (1.23033pt too wide) in paragraph at lines 398--405
-[]\TU/Yas(0)/m/n/12 برخلاف روش‌های نیوتن-کوتس که از نقاط با فواصل یکسان استفاده
- می‌کنند، روش گاوس-لژاندر ([]\TU/lmroman10-regular(0)/m/n/12 Gauss-Legendre[]\T
-U/Yas(0)/m/n/12 )[]
- []
-
-[6]
-File: /Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figur
-es/question3_integration.png Graphic file (type bmp)
-</Users/ali/Documents/Projects/PythonProge/Numerical-Methods/outputs/figures/qu
-estion3_integration.png>
- [7] (./project_report.aux)
+File: ../outputs/figures/question2_box_plot.png Graphic file (type bmp)
+<../outputs/figures/question2_box_plot.png>
+ [5] [6] [7] [8]
+File: ../outputs/figures/question3_integration.png Graphic file (type bmp)
+<../outputs/figures/question3_integration.png>
+ [9] (./project_report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -868,12 +866,12 @@ Package rerunfilecheck Info: File `project_report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17562 strings out of 468168
- 365322 string characters out of 5432815
- 817390 words of memory out of 5000000
- 45978 multiletter control sequences out of 15000+600000
- 634714 words of font info for 120 fonts, out of 8000000 for 9000
+ 17587 strings out of 468168
+ 364025 string characters out of 5432815
+ 819390 words of memory out of 5000000
+ 45991 multiletter control sequences out of 15000+600000
+ 633222 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,8n,93p,1191b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,6n,93p,1191b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on project_report.pdf (8 pages).
+Output written on project_report.pdf (10 pages).
