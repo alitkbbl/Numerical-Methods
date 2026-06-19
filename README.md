@@ -15,7 +15,7 @@ For a comprehensive overview of the project, please refer to the full reports:
 ## 📂 Directory Structure
 
 ```
-numerical-methods-project/
+numerical-methods/
 │
 ├── README.md
 ├── data/
