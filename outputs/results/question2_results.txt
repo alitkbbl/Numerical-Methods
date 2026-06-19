@@ -11,12 +11,13 @@ PART A: Data Summary
                             400KB     65    260    400
                             500KB     70    280    500
                             600KB     75    300    600
+                            700KB     80    320    700
 
 Statistical Summary:
-Algorithm  Mean  Median    Std Dev  Min  Max
-    Alg.1  62.5    62.5   8.539126   50   75
-    Alg.2 250.0   250.0  34.156503  200  300
-    Alg.3 350.0   350.0 170.782513  100  600
+Algorithm  Mean  Median  Std Dev  Min  Max
+    Alg.1  65.0    65.0     10.0   50   80
+    Alg.2 260.0   260.0     40.0  200  320
+    Alg.3 400.0   400.0    200.0  100  700
 
 PART C: Algorithm 2 Average (100KB-600KB)
 --------------------------------------------------------------------------------
