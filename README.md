@@ -1,5 +1,9 @@
 # Numerical Methods Project
 
+<p align="center">
+      <img src="banner.png" alt="Project Banner" width="100%">
+</p>
+
 A collection of numerical methods implemented in Python, covering interpolation,
 data visualization, and numerical integration. Each topic is explored through a
 dedicated Jupyter notebook with supporting figures, results, and detailed reports.
